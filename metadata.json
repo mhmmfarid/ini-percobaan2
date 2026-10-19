@@ -1,0 +1,6 @@
+{
+  "name": "Sistem Magang BPS Kota Depok",
+  "description": "Portal Sistem Informasi Magang Badan Pusat Statistik (BPS) Kota Depok — Pendaftaran, Seleksi, Penempatan Unit, Absensi QR, Logbook, Penilaian, dan E-Sertifikat Terverifikasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-950: #07192C;
+  --color-primary-900: #0B2A4A;
+  --color-primary-800: #123B66;
+  --color-primary-700: #174E88;
+  --color-primary-600: #1D5FA8;
+  --color-primary-500: #2575C8;
+  --color-primary-400: #4B91DC;
+  --color-primary-100: #E3EEF9;
+  --color-primary-50: #F0F6FC;
+
+  --color-accent-700: #9C4215;
+  --color-accent-600: #B8531D;
+  --color-accent-500: #D9692B;
+  --color-accent-400: #E5844E;
+  --color-accent-200: #F7C8AD;
+  --color-accent-100: #FBE9DD;
+  --color-accent-50: #FDF5EF;
+
+  --font-heading: 'Plus Jakarta Sans', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Glassmorphism custom styling conforming to PRD 3.4 */
+.card-glass {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 16px 36px -8px rgba(11, 42, 74, 0.12), 0 4px 12px -2px rgba(11, 42, 74, 0.06);
+}
+
+.card-glass-dark {
+  background-color: rgba(11, 42, 74, 0.80);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 24px 48px -12px rgba(7, 25, 44, 0.5);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
